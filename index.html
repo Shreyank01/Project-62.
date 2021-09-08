@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 62</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Photo gallary</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sv">Slide view</a></li>
+                <li><a href="#gv">grid view view</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <section id="home">
+
+        <img height="100%" width="100%" class="img-responsive" src="flowers.gif">
+
+    </section>
+
+    <section id="sv">
+
+        <div class="container">
+
+            <h2 id="bowl"><kbd>Sliding Gallery</kbd></h2>
+            <div id="myCarousel" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <div class="item">
+                        <center>
+                            <img class="img" src="violet.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>violet flower</p>
+                            </div>
+                        </center>
+
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img" src="Red%20rose.jpg" class="img-responsive">
+
+                            <div class="carousel-content">
+                                <p>red rose</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img" src="purple.jpg" class="img-responsive">
+
+                            <div class="carousel-content">
+                                <p>Purple Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img" src="Pink%20tulip.jpg" class="img-responsive">
+
+                            <div class="carousel-content">
+                                <p>pink tulip</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img" src="Orange.png" class="img-responsive">
+
+                            <div class="carousel-content">
+                                <p>Orange flower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item active">
+                        <center>
+                            <img class="img" src="blue.jpg" class="img-responsive">
+
+                            <div class="carousel-content">
+                                <p>Blue Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+
+                    <span class="glyphicon glyphicon-chevron-left"></span> </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+
+                    <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="gv">
+
+        <h2><kbd>Grid view</kbd></h2>
+        <br>
+        <div class="row">
+
+            <img class="img2" src="blue.jpg">
+            <img class="img2" src="Orange.png">
+            <img class="img2" src="Pink%20tulip.jpg">
+            <img class="img2" src="purple.jpg">
+            <img class="img2" src="Red%20rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
